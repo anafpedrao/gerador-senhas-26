@@ -126,6 +126,11 @@ label{
     width: 100%;
 }
 
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
 .forca{ 
     height: 30px;
     position: relative;
@@ -147,10 +152,6 @@ label{
     width: 100%;
 }
 
-.parametro-senha-textos{
-    display: flex;
-    justify-content: space-between;
-}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
